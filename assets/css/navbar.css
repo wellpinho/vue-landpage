@@ -1,0 +1,38 @@
+aside {
+  background-color: var(--white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-bottom: .1rem solid var(--border-color);
+}
+
+.v-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h2 {
+  font-size: 2.3rem;
+  color: var(--dark-blue);
+}
+
+.logo h2 a {
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: var(--dark-blue);
+  padding: 2rem;
+  font-size: 1.8rem;
+  color: var(--dark-blue);
+}
